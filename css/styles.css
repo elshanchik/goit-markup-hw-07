@@ -38,7 +38,7 @@ ol {
 }
 
 .container {
-    width: 1158px;
+    width: 100px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -338,12 +338,14 @@ ol {
 .team-item {
     background-color: var(--hero-color);
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 1);
+    width: 264px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 
 }
@@ -1127,6 +1129,10 @@ input:checked + label > span {
     margin-top: 16px;
 }
 
-
+@media screen and (min-width: 428px;) {
+    .container {
+        max-width: 426px;
+    }
+}
 
 
