@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- <header class="header-index">
+    <header class="header-index">
       <div class="container header-container">
         <nav class="header-nav">
           <a class="header-logo link" href="./index.html"
@@ -57,10 +57,105 @@
             </li>
           </ul>
         </address>
+        <button class="menu-open-button" type="button" data-menu-open>
+          <svg class="menu-open-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-charm_menu-hamburger-1"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mob-menu is-hidden" data-menu>
+        <div>
+          <button class="menu-close-button" type="button" data-menu-close>
+            <svg class="menu-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <nav class="mob-page-nav">
+            <ul class="mob-menu-list list">
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link active" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <address class="mob-address">
+            <ul class="mob-address-list list">
+              <li class="mob-address-item">
+                <a class="mob-address-link tell link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-address-item">
+                <a
+                  class="mob-address-link mail link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-soc-list list">
+            <li class="footer-soc-item">
+              <a
+                href=""
+                class="footer-soc-link link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg class="soc-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a
+                href=""
+                class="footer-soc-link link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg class="soc-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a
+                href=""
+                class="footer-soc-link link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg class="soc-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a
+                href=""
+                class="footer-soc-link link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg class="soc-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <main>
-      <!-- <section class="main-section-button">
+      <section class="main-section-button">
         <div class="container">
           <h1 class="section-button-text">
             Effective Solutions for Your Business
@@ -69,8 +164,8 @@
             Order Service
           </button>
         </div>
-      </section> -->
-      <!-- <section class="section-intermedia">
+      </section>
+      <section class="section-intermedia">
         <div class="container intermedia-container">
           <h2 class="hidden-section visually-hidden" hidden>section2</h2>
           <ul class="intermedia-list list">
@@ -124,8 +219,8 @@
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- <section class="section-hover">
+      </section>
+      <section class="section-hover">
         <div class="container hover-container">
           <h2 class="hover">What are we doing</h2>
           <ul class="hover-list list">
@@ -158,7 +253,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <section class="section-team">
         <div class="container team-container">
           <h2 class="team">Our Team</h2>
@@ -418,7 +513,7 @@
           </ul>
         </div>
       </section>
-      <!-- <section class="section-customers">
+      <section class="section-customers">
         <div class="container container-cusromers">
           <h2 class="customers">Customers</h2>
           <ul class="customers-list list">
@@ -496,9 +591,9 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
-    <!-- <footer class="index-footer">
+    <footer class="index-footer">
       <div class="container footer-container">
         <div class="index-container">
           <a class="footer-logo link" href="./index.html"
@@ -582,8 +677,8 @@
           </form>
         </div>
       </div>
-    </footer> -->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -666,7 +761,7 @@
           <button type="submit" class="modal-button">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
