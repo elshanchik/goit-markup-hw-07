@@ -58,11 +58,101 @@
             </li>
           </ul>
         </address>
-        <button class="menu-open-button" type="button" js-open-menu>
+        <button class="menu-open-button" type="button" data-menu-open>
           <svg class="menu-open-icon" width="32" height="22">
             <use href="./images/icons.svg#icon-charm_menu-hamburger-1"></use>
           </svg>
         </button>
+      </div>
+      <div class="mob-menu is-hidden" data-menu>
+        <div>
+          <button class="menu-close-button" type="button" data-modal-open>
+            <svg class="menu-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <nav class="mob-page-nav">
+            <ul class="mob-menu-list list">
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link active" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <address class="mob-address">
+            <ul class="mob-address-list list">
+              <li class="mob-address-item">
+                <a class="mob-address-link tell link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-address-item">
+                <a
+                  class="mob-address-link mail link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-soc-list list">
+            <li class="footer-soc-item">
+              <a
+                href=""
+                class="footer-soc-link link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg class="soc-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a
+                href=""
+                class="footer-soc-link link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg class="soc-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a
+                href=""
+                class="footer-soc-link link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg class="soc-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a
+                href=""
+                class="footer-soc-link link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><svg class="soc-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -135,7 +225,7 @@
         <div class="container hover-container">
           <h2 class="hover">What are we doing</h2>
           <ul class="hover-list list">
-            <li class="hover">
+            <li class="hover-item">
               <img
                 class="hover-img"
                 src="./images/section-2-img-1.jpg"
@@ -144,7 +234,7 @@
                 height="300"
               />
             </li>
-            <li class="hover">
+            <li class="hover-item">
               <img
                 class="hover-img"
                 src="./images/section-2-img-2.jpg"
@@ -153,7 +243,7 @@
                 height="300"
               />
             </li>
-            <li class="hover">
+            <li class="hover-item">
               <img
                 class="hover-img"
                 src="./images/section-2-img-3.jpg"
@@ -673,97 +763,6 @@
         </form>
       </div>
     </div>
-    <div class="mob-menu is-hidden" js-menu-container>
-      <div>
-        <button class="menu-close-button" type="button" js-close-menu>
-          <svg class="menu-close-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black"></use>
-          </svg>
-        </button>
-        <nav class="mob-page-nav">
-          <ul class="mob-menu-list list">
-            <li class="mob-menu-item">
-              <a class="mob-menu-link link active" href="./index.html"
-                >Studio</a
-              >
-            </li>
-            <li class="mob-menu-item">
-              <a class="mob-menu-link link" href="./portfolio.html"
-                >Portfolio</a
-              >
-            </li>
-            <li class="mob-menu-item">
-              <a class="mob-menu-link link" href="">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div>
-        <address class="mob-address">
-          <ul class="mob-address-list list">
-            <li class="mob-address-item">
-              <a class="mob-address-link tell link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-            <li class="mob-address-item">
-              <a
-                class="mob-address-link mail link"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-          </ul>
-        </address>
-        <ul class="mob-soc-list list">
-          <li class="footer-soc-item">
-            <a
-              href=""
-              class="footer-soc-link link"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><svg class="soc-icons" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-soc-item">
-            <a
-              href=""
-              class="footer-soc-link link"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><svg class="soc-icons" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-soc-item">
-            <a
-              href=""
-              class="footer-soc-link link"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><svg class="soc-icons" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-soc-item">
-            <a
-              href=""
-              class="footer-soc-link link"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><svg class="soc-icons" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
