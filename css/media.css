@@ -1031,6 +1031,9 @@
         display: block;
     }
 
+    .row-item {
+        max-width: 360px;
+    }
 
     .row-list {
         list-style: none;

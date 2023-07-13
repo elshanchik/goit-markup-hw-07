@@ -975,7 +975,7 @@ input:checked+label>span {
 }
 
 .filters {
-    padding-top: 96px;
+    padding-top: 48px;
     padding-bottom: 120px;
 }
 
@@ -983,7 +983,7 @@ input:checked+label>span {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    margin-bottom: 72px;
+    margin-bottom: 48px;
 }
 
 .button {
@@ -1075,7 +1075,13 @@ input:checked+label>span {
 
 
 .row-list {
+    display: flex;
     flex-wrap: wrap;
+    gap: 48px 0;
+}
+
+.row-item {
+    width: 396px;
 }
 
 .row-link {
