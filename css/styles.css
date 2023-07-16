@@ -1237,10 +1237,22 @@ input:checked+label>span {
     line-height: 1.2;
 }
 
+.footer-soc-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    padding: 8px;
+}
+
 .mob-soc-list {
     display: flex;
-    justify-content: ;
+    justify-content: start;
     gap: 54px;
+}
+
+.soc-icons {
+    fill: #F4F4FD;
 }
 
 .mob-address-link:hover,
