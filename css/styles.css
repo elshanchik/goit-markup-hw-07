@@ -1148,7 +1148,7 @@ input:checked+label>span {
     min-width: 32px;
     height: 22px;
     padding: 0;
-    fill: #2e2f42;
+    background-color: #FFFFFF;
 }
 
 .menu-open-icon {
@@ -1168,8 +1168,12 @@ input:checked+label>span {
     justify-content: space-between;
     overflow: auto;
     margin: auto;
+    transform: translateX(100%);
 }
 
+.mob-menu.is-open {
+    transform: translateX(0);
+}
 
 .menu-close-button {
     cursor: pointer;
@@ -1178,7 +1182,7 @@ input:checked+label>span {
     padding: 0;
     background: #e7e9fc;
     opacity: 0.7;
-    border: 1px solid #8e8f99;
+    border: 1px solid #2E2F42;
     border-radius: 50%;
     margin-left: auto;
     margin-bottom: 32px;
@@ -1201,6 +1205,8 @@ input:checked+label>span {
     color: var(--secondary-text-color);
     transition: color var(--tra);
 }
+
+
 
 
 .active {
@@ -1260,4 +1266,9 @@ input:checked+label>span {
 .mob-menu-link:hover,
 .mob-menu-link:focus {
     color: #404bbf;
+}
+
+.footer-soc-item:hover,
+.footer-soc-item:focus {
+    background-color: #404BBF;
 }
