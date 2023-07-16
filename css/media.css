@@ -575,6 +575,12 @@
         fill: #FFFFFF;
     }
 
+    /* mob-menu */
+
+    .mob-menu {
+        display: none;
+    }
+
     /* BACKDROP */
 
     .backdrop {
@@ -1546,10 +1552,11 @@
 
     .footer-container {
         display: flex;
-        flex-direction: inherit;
+        flex-direction: row;
         gap: 72px 24px;
         align-items: baseline;
-
+        flex-wrap: wrap;
+        max-width: 586px;
     }
 
     .index-footer {
@@ -1567,7 +1574,7 @@
         color: var(--logo-color);
         display: block;
         margin-bottom: 16px;
-        text-align: center;
+        text-align: start;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1602,7 +1609,7 @@
         letter-spacing: 0.02em;
         color: #FFFFFF;
         margin-bottom: 16px;
-        text-align: center;
+        text-align: start;
     }
 
     .social-media-list {
@@ -1646,11 +1653,13 @@
 
     .footer-form {
         gap: 24px;
+        display: flex;
+        align-items: baseline;
     }
 
     .footer-form-text {
         margin-bottom: 16px;
-        text-align: center;
+        text-align: start;
     }
 
     .footer-input {
@@ -1675,6 +1684,10 @@
         letter-spacing: 0.04em;
     }
 
+    .footer-label {
+        width: 264px;
+    }
+
     .button-submit {
         min-width: 165px;
         height: 40px;
@@ -1694,12 +1707,18 @@
         padding: 8px 24px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 16px;
+        margin-top: 0;
     }
 
     .submit-icon {
         margin-left: 16px;
         fill: #FFFFFF;
+    }
+
+    /* mobile-menu */
+
+    .mob-menu {
+        display: none;
     }
 
     /* BACKDROP */
@@ -2211,7 +2230,7 @@
         color: var(--logo-color);
         display: block;
         margin-bottom: 16px;
-        text-align: center;
+        text-align: start;
         margin-left: auto;
         margin-right: auto;
     }
